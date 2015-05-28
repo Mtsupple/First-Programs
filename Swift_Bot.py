@@ -16,11 +16,6 @@ words_to_match = ["my life sucks", "i hate my life", "i hate everything", "i hat
 #responses
 print ("Loading Swiftisms")
 
-#with open("JustSwiftThings.txt", "r+") as swiftisms_file:
- #   swift_lines = swiftisms_file.readlines()
-  #  swift_list = swift_lines.split('\n')
-
-#swift_quote = swift_list[randint(0, len(swift_list))]
 
 swift_quote = random.choice(open('JustSwiftThings.txt').readlines())
 
